@@ -20,9 +20,9 @@ public class Dice{
 		System.out.println("Dice 2: " + D2);
 		System.out.println("Total value: " + Total);
 		if(Total>7) {
-			System.out.println("You" + " won");
+			System.out.println(str + " won!");
 		}else {
-			System.out.println("You" + " lost");
+			System.out.println(str + " lost");
 		}
 	}
 }
