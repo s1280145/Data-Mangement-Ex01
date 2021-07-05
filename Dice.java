@@ -1,15 +1,15 @@
 import java.util.Random;
-//import java.util.Scanner;
+import java.util.Scanner;
 
 public class Dice{
 	public static void main(String[] args) {
 		Random rand = new Random();
-		/*System.out.println("What is your name?");
+		System.out.println("What is your name?");
 		System.out.print(">");
 		Scanner scan = new Scanner(System.in);
         String str = scan.nextLine();
         System.out.println("Hello, " + str +"!");
-        scan.close();*/
+        scan.close();
 		
 		System.out.println("Rolling the dice...");
 		int D1,D2,Total;
@@ -19,10 +19,10 @@ public class Dice{
 		System.out.println("Dice 1: " + D1);
 		System.out.println("Dice 2: " + D2);
 		System.out.println("Total value: " + Total);
-		/*if(Total>7) {
+		if(Total>7) {
 			System.out.println("You" + " won");
 		}else {
 			System.out.println("You" + " lost");
-		}*/
+		}
 	}
 }
